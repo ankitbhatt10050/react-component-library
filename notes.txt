@@ -1,3 +1,9 @@
-https://stackoverflow.com/questions/73197460/error-could-not-resolve-entry-module-react-rollup
+// Build Library
 https://dev.to/alexeagleson/how-to-create-and-publish-a-react-component-library-2oe
+
+// Common Error
+https://stackoverflow.com/questions/73197460/error-could-not-resolve-entry-module-react-rollup
 https://stackoverflow.com/questions/55925704/rollup-with-gulp-and-typescript-outputs-cannot-find-module-tslib-tslib-es6-js
+
+// Adding modular scss
+https://florian.ec/blog/rollup-scss-css-modules/

@@ -8,7 +8,7 @@ export interface ButtonProps {
 const WavyButton = (props: ButtonProps) => {
   return (
     <a href="#">
-      button
+      {props.label}
       <div className="wave"></div>
     </a>
   );

@@ -16,5 +16,5 @@ const Template: ComponentStory<typeof WavyButton> = (args) => (
 export const Primary = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
 Primary.args = {
-  label: "Button",
+  label: "wavy Button",
 };
