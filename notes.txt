@@ -7,3 +7,8 @@ https://stackoverflow.com/questions/55925704/rollup-with-gulp-and-typescript-out
 
 // Adding modular scss
 https://florian.ec/blog/rollup-scss-css-modules/
+
+// story book deployment
+https://medium.com/swlh/how-to-deploy-storybook-to-github-pages-4894097d49ab
+
+http://ankitbhatt10050.github.io/react-component-library
