@@ -1,5 +1,5 @@
 import React from "react";
-import "./WavyButton.css";
+import styles from "./WavyButton.module.scss";
 
 export interface ButtonProps {
   label: string;
@@ -7,9 +7,9 @@ export interface ButtonProps {
 
 const WavyButton = (props: ButtonProps) => {
   return (
-    <a href="#">
+    <a className={styles.anchor} href="#">
       {props.label}
-      <div className="wave"></div>
+      <div className={styles.wave}></div>
     </a>
   );
 };

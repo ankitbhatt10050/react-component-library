@@ -24,8 +24,21 @@ export default [
     plugins: [
       resolve(),
       commonjs(),
-      typescript({ tsconfig: "./tsconfig.json" }),
-      postcss(),
+      typescript({
+        exclude: [
+          // Exclude test files
+          /\.test.((js|jsx|ts|tsx))$/,
+          // Exclude story files
+          /\.stories.((js|jsx|ts|tsx|mdx))$/,
+        ],
+        tsconfig: "./tsconfig.json",
+      }),
+      postcss({
+        extract: false,
+        modules: true,
+        extensions: [".css", ".module.scss", ".scss"],
+        use: ["sass"],
+      }),
     ],
   },
   {

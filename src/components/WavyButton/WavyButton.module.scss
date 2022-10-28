@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   display: flex;
   align-items: center;
@@ -6,9 +6,10 @@ body {
   height: 100vh;
   font-family: sans-serif;
   background-color: #272727;
-}
+} */
 
-a {
+.anchor {
+  font-family: sans-serif;
   text-decoration: none;
   padding: 15px 30px;
   color: #00aeff;
@@ -22,8 +23,8 @@ a {
   display: inline-block;
 }
 
-a:hover {
-  color: white;
+.anchor:hover {
+  color: #fff;
 }
 
 .wave {
@@ -37,11 +38,11 @@ a:hover {
   z-index: -1;
 }
 
-a:hover .wave {
+.anchor:hover .wave {
   top: 0;
 }
 
-a:hover .wave::before {
+.anchor:hover .wave::before {
   display: block;
 }
 

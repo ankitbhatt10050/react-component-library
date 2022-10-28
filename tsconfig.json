@@ -16,6 +16,8 @@
     "outDir": "dist",
     "moduleResolution": "Node",
     "allowSyntheticDefaultImports": true,
-    "emitDeclarationOnly": true
-  }
+    "emitDeclarationOnly": true,
+    "plugins": [{ "name": "typescript-plugin-css-modules" }]
+  },
+  "exclude": ["node_modules", "build", "storybook-static", "scripts", "my-app"]
 }
